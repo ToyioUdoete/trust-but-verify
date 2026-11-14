@@ -1,0 +1,22 @@
+# data, checkpoints and outputs are not tracked (see DATASETS.md and the release page)
+data/figshare/
+data/kaggle_images/
+checkpoints/*
+!checkpoints/.gitkeep
+outputs/
+figures/*.pdf
+figures/*.png
+figures/*.tex
+runs/
+
+*.pt
+*.pth
+*.safetensors
+*.pkl
+*.npz
+*.zip
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
