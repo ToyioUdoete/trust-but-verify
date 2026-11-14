@@ -49,7 +49,7 @@ conda create -n tbv python=3.12.2 -y && conda activate tbv
 pip install -r requirements.txt
 ```
 
-MedGemma, PaliGemma 2 and Qwen2.5-VL are gated on Hugging Face. Accept their terms and log in with `huggingface-cli login` before running.
+MedGemma, PaliGemma 2 and Qwen2.5-VL are gated on Hugging Face. Accept their terms and log in with `hf auth login` before running.
 
 ## Data
 
