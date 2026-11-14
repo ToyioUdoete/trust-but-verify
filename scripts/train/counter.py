@@ -1,8 +1,8 @@
 """Train the YOLO11s follicle counter on Figshare and pick its confidence threshold."""
 
 FIG_ROOTS = [
-    "data/figshare/doctor_confirmed_136",
-    "data/figshare/annotations_605",
+    "data/figshare/figshare_part1",
+    "data/figshare/figshare_part2",
 ]
 KAGGLE_CSV = "data/kaggle_references.csv"
 BASE_MODEL = "yolo11s.pt"

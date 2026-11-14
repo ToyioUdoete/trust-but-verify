@@ -8,8 +8,8 @@ TBV is trained on one public dataset (Figshare) and tested on another (Kaggle). 
 data/
 ├── kaggle/                        # Kaggle images (see below)
 ├── figshare/
-│   ├── doctor_confirmed_136/      # Roboflow export: train|valid|test/images, train|valid|test/labels
-│   └── annotations_605/           # Roboflow export of the remaining Figshare images
+│   ├── figshare_part1/            # Roboflow export: train|valid|test/images, train|valid|test/labels
+│   └── figshare_part2/            # Roboflow export of the remaining Figshare images
 ├── kaggle_references.csv          # 664 Kaggle images: reference report + reference boxes
 ├── test_annotation_map.csv        # test_000 ... test_099 -> Kaggle image
 ├── test_labels/                   # blind follicle annotations of the 100 test images (YOLO format, test_XXX.txt)

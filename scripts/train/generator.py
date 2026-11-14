@@ -1,8 +1,8 @@
 """Fine-tune MedGemma 1.5 on Figshare, cite follicles on Kaggle, and re-measure the citations."""
 
 FIG_SOURCES = [
-    "data/figshare/annotations_605",
-    "data/figshare/doctor_confirmed_136",
+    "data/figshare/figshare_part2",
+    "data/figshare/figshare_part1",
 ]
 KAGGLE_CSV = "data/kaggle_references.csv"
 MAP_CSV, LABEL_DIR = "data/test_annotation_map.csv", "data/test_labels"
