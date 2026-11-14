@@ -1,5 +1,4 @@
 torch>=2.6
-torchvision
 transformers>=4.56
 peft
 accelerate
@@ -9,8 +8,6 @@ scipy
 scikit-image
 pandas
 pillow
-opencv-python
-matplotlib
 nltk
 rouge-score
 bert-score

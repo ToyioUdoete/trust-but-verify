@@ -79,7 +79,7 @@ scripts/
   verify/
     tbv.py                   TBV: re-measure, reject, recompute claims (Table 4)
   baselines/
-    qwen_sam2.py             Qwen2.5-VL 32B, SAM2, Otsu and MedSAM verifiers (Table 2)
+    qwen_sam2.py             Qwen2.5-VL 32B (check, refine, judge) and SAM2 (Table 2)
     second_vlms.py           PaliGemma 2 and LLaVA-Med (Table 2)
   evaluate/
     text_metrics.py          Table 1
