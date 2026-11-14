@@ -70,25 +70,26 @@ Download from the [release page](https://github.com/ToyioUdoete/trust-but-verify
 ## Repository structure
 
 ```
-train/
-  decoder.py         MedSAM mask decoder on Figshare (3 seeds)
-  counter.py         YOLO11s follicle counter on Figshare
-  generator.py       MedGemma on Figshare, citations and re-measurement on the Kaggle test set
-  error_aware.py     error-aware decoder and rejection threshold
-verify/
-  tbv.py             TBV: re-measure, reject, recompute claims (Table 4)
-baselines/
-  qwen_sam2.py       Qwen2.5-VL 32B, SAM2, Otsu and MedSAM verifiers (Table 2)
-  second_vlms.py     PaliGemma 2 and LLaVA-Med (Table 2)
-evaluate/
-  text_metrics.py          Table 1
-  main_tables.py           Tables 2 and 4
-  second_vlm_verifiers.py  Table 2, PaliGemma 2 and LLaVA-Med rows
-  example_case.py          Table 3
-  count_correction.py      Table 4, count correction row
-  robustness.py            Table 5
-  sensitivity.py           threshold sensitivity, recall by follicle size
-  rejection_rates.py       rejected citations and fallbacks
+scripts/
+  train/
+    decoder.py               MedSAM mask decoder on Figshare (3 seeds)
+    counter.py               YOLO11s follicle counter on Figshare
+    generator.py             MedGemma on Figshare, citations and re-measurement on the Kaggle test set
+    error_aware.py           error-aware decoder and rejection threshold
+  verify/
+    tbv.py                   TBV: re-measure, reject, recompute claims (Table 4)
+  baselines/
+    qwen_sam2.py             Qwen2.5-VL 32B, SAM2, Otsu and MedSAM verifiers (Table 2)
+    second_vlms.py           PaliGemma 2 and LLaVA-Med (Table 2)
+  evaluate/
+    text_metrics.py          Table 1
+    main_tables.py           Tables 2 and 4
+    second_vlm_verifiers.py  Table 2, PaliGemma 2 and LLaVA-Med rows
+    example_case.py          Table 3
+    count_correction.py      Table 4, count correction row
+    robustness.py            Table 5
+    sensitivity.py           threshold sensitivity, recall by follicle size
+    rejection_rates.py       rejected citations and fallbacks
 ```
 
 Run the scripts from the repository root in the order above.
