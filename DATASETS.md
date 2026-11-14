@@ -12,7 +12,7 @@ data/
 │   └── annotations_605/           # Roboflow export of the remaining Figshare images
 ├── kaggle_references.csv          # 664 Kaggle images: reference report + reference boxes
 ├── test_annotation_map.csv        # test_000 ... test_099 -> Kaggle image
-├── test_labels/                   # blind follicle annotations of the 100 test images (YOLO format)
+├── test_labels/                   # blind follicle annotations of the 100 test images (YOLO format, test_XXX.txt)
 └── scan_groups.json               # near-duplicate groups of the Kaggle images (used for all CIs)
 ```
 

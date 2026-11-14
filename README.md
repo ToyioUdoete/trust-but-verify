@@ -45,7 +45,7 @@ Cited evidence on three test images. Red: boxes each method keeps or produces; g
 ```bash
 git clone https://github.com/ToyioUdoete/trust-but-verify.git
 cd trust-but-verify
-conda create -n tbv python=3.12 -y && conda activate tbv
+conda create -n tbv python=3.12.2 -y && conda activate tbv
 pip install -r requirements.txt
 ```
 
