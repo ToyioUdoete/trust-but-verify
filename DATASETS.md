@@ -27,7 +27,7 @@ data/
 - Images: Polycystic Ovary Syndrome (PCOS) ultrasound dataset, Anagha Choudhari, [Kaggle](https://www.kaggle.com/datasets/anaghachoudhari/pcos-detection-using-ultrasound-images).
 - Reference reports: drafted from YOLO11 detections for 781 images and rewritten/approved by a clinician; 664 are kept (`kaggle_references.csv`). Columns: `image_path`, `img_w`, `img_h`, `follicle_count`, `boxes_json` (reference boxes, `xyxy_norm`), `report`.
 - Test set: 100 images (14 near-duplicate groups). They were renamed, shuffled and annotated without any model output, boxes or reports visible (1,403 follicles, `test_labels/`). `test_annotation_map.csv` links each `test_XXX` file to its Kaggle image.
-- Put the images in `data/kaggle/` with the file names used in `kaggle_references.csv`.
+- Put the images in `data/kaggle/` with the file names used in `kaggle_references.csv`. These are Roboflow export names: the part before `_jpg.rf.` is the original Kaggle file name (`img10_jpg.rf.zC5o...jpg` is `img10.jpg`), and all images were resized to 256 × 256.
 - Near-duplicate groups (`scan_groups.json`, key `scan_of`): the Kaggle images come from a small number of source scans; bootstrap CIs resample whole groups.
 
 Pixel spacing is not available for either dataset, so all millimetre values use a nominal 0.15 mm per pixel.
