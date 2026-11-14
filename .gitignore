@@ -1,12 +1,8 @@
 # data, checkpoints and outputs are not tracked (see DATASETS.md and the release page)
 data/figshare/
-data/kaggle_images/
-checkpoints/*
-!checkpoints/.gitkeep
+data/kaggle/
+checkpoints/
 outputs/
-figures/*.pdf
-figures/*.png
-figures/*.tex
 runs/
 
 *.pt
